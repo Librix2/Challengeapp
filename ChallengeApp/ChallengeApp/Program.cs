@@ -1,15 +1,29 @@
-﻿  //Instrukcja If i podstawy debugowania
+﻿//Instrukcja If i podstawy debugowania
 
 // Operatory relacyjne
 // == != < > <= >=
 
-var number1 = 50;
-var number2 = 10;
-if(number1 < number2)
+// Operatory logiczne
+// && || !
+
+
+var name = "Lucjan";
+var age = 37;
+if (age < 50)
 {
-    Console.WriteLine("Jestem TUTAJ w LINII 39");
+    if (name == "Lucjan")
+        Console.WriteLine("Mam mniej niż 50");
+    else
+    {
+    }
 }
-else
+else if (age < 40)
 {
-    Console.WriteLine("Jestem TUTAJ w LINII 43");
+    Console.WriteLine("Mam mniej niż 40");
 }
+else if (age < 30)
+{
+    Console.WriteLine("Mam mniej niż 30");
+}
+
+// Ctrl + K + D - formatowanie kodu

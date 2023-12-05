@@ -1,29 +1,18 @@
-﻿//Instrukcja If i podstawy debugowania
+﻿string name = "Lucjan";
+string sex = "men";
+int age = 48;
 
-// Operatory relacyjne
-// == != < > <= >=
-
-// Operatory logiczne
-// && || !
-
-
-var name = "Lucjan";
-var age = 37;
-if (age < 50)
+if (sex == "women")
 {
-    if (name == "Lucjan")
-        Console.WriteLine("Mam mniej niż 50");
-    else
+    if (age < 30)
+
     {
+        Console.WriteLine("Kobieta poniżej 30 lat");
+}
+   else if (name == "Ewa")
+    {
+        if (age = 33) 
+        { Console.WriteLine("Ewa, lat 33"); 
+        }
     }
 }
-else if (age < 40)
-{
-    Console.WriteLine("Mam mniej niż 40");
-}
-else if (age < 30)
-{
-    Console.WriteLine("Mam mniej niż 30");
-}
-
-// Ctrl + K + D - formatowanie kodu
